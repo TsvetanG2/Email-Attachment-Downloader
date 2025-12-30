@@ -5,6 +5,8 @@ A powerful desktop application for bulk downloading email attachments from Gmail
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
+[![Download](https://img.shields.io/badge/Download_Installer-darkgreen.svg)](https://github.com/TsvetanG2/Email-Attachment-Downloader/raw/refs/heads/main/installer_output/EmailAttachmentDownloader_Setup_1.0.0.exe)
+
 
 ---
 
