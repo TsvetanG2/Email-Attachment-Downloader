@@ -232,7 +232,7 @@ with EmailClient(EmailProvider.GMAIL) as client:
         print(f"{email.subject} - {email.attachment_count} attachments")
 ```
 
-### AttachmentDownloader
+### Attachment Downloader
 
 ```python
 from src.downloader import AttachmentDownloader
