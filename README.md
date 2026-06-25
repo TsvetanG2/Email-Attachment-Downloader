@@ -74,7 +74,7 @@ A powerful desktop application for bulk downloading email attachments from Gmail
 
 1. **Clone or download the repository**
    ```bash
-   git clone https://github.com/yourusername/email-attachment-downloader.git
+   git clone https://github.com/TsvetanG2/email-attachment-downloader.git
    cd email-attachment-downloader
    ```
 
