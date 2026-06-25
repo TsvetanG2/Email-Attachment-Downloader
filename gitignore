@@ -1,0 +1,45 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads_build/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+.installed.cfg
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- PyInstaller ----
+# Keep the published installer in Releases, not in the repo.
+*.spec
+build/
+__pypackages__/
+
+# ---- App runtime data (DO NOT COMMIT USER EMAIL ATTACHMENTS) ----
+downloads/
+attachments/
+*.log
+
+# ---- Secrets / config ----
+.env
+*.env
+credentials.json
+config.local.*
+
+# ---- IDE / OS ----
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
