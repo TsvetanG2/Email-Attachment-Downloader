@@ -547,10 +547,11 @@ class EmailDownloaderApp(ctk.CTk):
             else:
                 self.after(0, lambda: self.preview_btn.configure(state="disabled"))
                 self.after(0, lambda: self.download_btn.configure(state="disabled"))
-
+                
         except Exception as e:
-            self._log(f"Search error: {str(e)}")
-            self.after(0, lambda: messagebox.showerror("Search Error", str(e)))
+            error_msg = str(e)
+            self._log(f"Search error: {error_msg}")
+            self.after(0, lambda msg=error_msg: messagebox.showerror("Search Error", msg))
             self.after(0, lambda: self.progress_label.configure(text="Search failed"))
 
         finally:
@@ -630,8 +631,9 @@ class EmailDownloaderApp(ctk.CTk):
             self._log(f"Complete: {success_count} files saved, {fail_count} failed")
 
         except Exception as e:
-            self._log(f"Download error: {str(e)}")
-            self.after(0, lambda: messagebox.showerror("Download Error", str(e)))
+            error_msg = str(e)
+            self._log(f"Download error: {error_msg}")
+            self.after(0, lambda msg=error_msg: messagebox.showerror("Download Error", msg))
 
         finally:
             self.after(0, lambda: self.download_btn.configure(state="normal"))
