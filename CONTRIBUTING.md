@@ -7,7 +7,7 @@ guide explains how to get set up and submit changes.
 
 1. Fork the repository and clone your fork:
    ```bash
-   git clone https://github.com/<your-username>/Email-Attachment-Downloader.git
+   git clone https://github.com/TsvetanG2/Email-Attachment-Downloader.git
    cd Email-Attachment-Downloader
    ```
 2. (Recommended) Create and activate a virtual environment:
