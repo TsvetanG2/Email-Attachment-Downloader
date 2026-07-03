@@ -24,7 +24,7 @@ A powerful desktop application for bulk downloading email attachments from Gmail
 
 ---
 
-## Screenshots
+## Design / UI
 
 ```
 +------------------------------------------+
