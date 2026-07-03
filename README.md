@@ -24,42 +24,9 @@ A powerful desktop application for bulk downloading email attachments from Gmail
 
 ---
 
-## Design / UI
+## Design / UI / Screenshot
 
-```
-+------------------------------------------+
-|  Email Attachment Downloader             |
-+------------------------------------------+
-|  Provider:  [Gmail v]  [?]               |
-|  Email:     [your.email@gmail.com    ]   |
-|  Password:  [****************        ]   |
-|                                          |
-|  [Connect]  Status: Connected            |
-+------------------------------------------+
-|  Email Filters                           |
-|  From:    [sender@example.com        ]   |
-|  Subject: [invoice                   ]   |
-|  Date:    [Start date] to [End date]     |
-+------------------------------------------+
-|  File Types                              |
-|  [x] PDF  [x] IMAGES  [x] DOCUMENTS      |
-|  [x] SPREADSHEETS  [x] PRESENTATIONS     |
-+------------------------------------------+
-|           [Search Emails]                |
-+------------------------------------------+
-|  Results: 45 emails, 127 attachments     |
-|                       [Preview Results]  |
-+------------------------------------------+
-|  Rename Pattern: [Date + Filename    v]  |
-|  [ ] Convert to lowercase                |
-+------------------------------------------+
-|  Save to: [C:/Downloads/Attachments]     |
-|        [Download All Attachments]        |
-+------------------------------------------+
-|  Progress: [==============    ] 70%      |
-|  Downloading: invoice_march.pdf          |
-+------------------------------------------+
-```
+<img width="635" height="773" alt="Screenshot 2026-07-04 025856" src="https://github.com/user-attachments/assets/cc42837c-91f9-484c-aac4-671670785518" />
 
 ---
 
